@@ -4,6 +4,7 @@ import pandas as pd
 import requests
 import math
 from scipy import stats
+import streamlit as st
 import xlsxwriter
 
 #Importando a lista de ações
@@ -94,6 +95,7 @@ hqm_dataframe = hqm_dataframe[:51]
 
 
 # Streamlit Interface
+st.header("Momentum Strategy")
 portfolio_input = st.number_input()
 
 position_size = float(portfolio_size) / len(hqm_dataframe.index)
