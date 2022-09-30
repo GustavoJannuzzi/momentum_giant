@@ -5,7 +5,6 @@ import requests
 import math
 from scipy import stats
 import streamlit as st
-import xlsxwriter
 
 #Importando a lista de ações
 stocks = pd.read_csv('sp_500_stocks.csv')
