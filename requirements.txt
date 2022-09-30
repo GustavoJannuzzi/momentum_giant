@@ -4,3 +4,4 @@ streamlit==1.10.0
 requests==2.26.0
 scipy==1.9.1
 yfinance==0.1.67
+IEX_CLOUD_API_TOKEN
